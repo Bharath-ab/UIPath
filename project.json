@@ -1,0 +1,81 @@
+{
+  "name": "FirstAutomation",
+  "description": "Blank Process",
+  "main": "ManualRecordingsteps.xaml",
+  "dependencies": {
+    "MyFirstLib": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.PDF.Activities": "[3.4.0]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Atx_InvokeWorkflow.xaml",
+      "uniqueId": "90d51b13-8734-4501-9361-7336c8bd7421",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FirstProgram.xaml",
+      "uniqueId": "7c46c2a4-5626-449a-b017-51c7b2d61073",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "RunFromPackage.xaml",
+      "uniqueId": "d2ecf3bc-ce05-4131-970d-8042dea771d1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Atx_Loop.xaml",
+      "uniqueId": "53526c58-bfbf-435b-b167-ef8de94a9578",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ManualRecordingsteps.xaml",
+      "uniqueId": "17c9eb79-575d-4e38-9a9a-186e1179b7b9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
